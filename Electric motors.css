@@ -8,6 +8,9 @@ h1 {
     width: 100%;
     text-align: left;
   }
+  ul {
+    list-style-type: none;
+  }
   label.logo{
     color: rgb(14, 13, 13);
     font-size: 17px;
