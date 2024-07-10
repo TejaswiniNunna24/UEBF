@@ -1,68 +1,176 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <style>
-            h1{
-               text-align: center;
-            }
-.body{
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 20px;
-        text-align: center; /* Center align text */ 
+h1 {
+    color: rgb(10, 10, 10);
+    text-align: left;
+  }
+  nav {
+    background: #b5b83e;
+    height: 70px;
+    width: 100%;
+    text-align: left;
+  }
+  ul {
+    list-style-type: none;
+  }
+  label.logo{
+    color: rgb(14, 13, 13);
+    font-size: 17px;
+    font-family: "Audiowide", sans-serif;
+    text-shadow: 3px 3px 3px #f5f2f1;
+    line-height: 80px;
+    padding: 0 30px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 30px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 10px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 11px;
+    padding: 7px 5px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #030303;
+   
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  .menuitems ul {
+    list-style: none;
+    padding: 0;
+  }
+  .menuitems ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the text within the box */
+  }
+  .menuitems li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    display: block; /* Ensure the link covers the entire box */
+  }
+  .menuitems ul li a:hover {
+    text-decoration: underline;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-github {
+    background: #181211;
+    color: white;
+  }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+  }
+  *{
+    margin: 100;
+    padding: 50;
+    box-sizing: border-box;
+  }
+  footer{
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(11, 11, 11);
+    color: white;
+    text-align: center;
     }
-    h1, h2 {
-        color: #333;
-    }
-    p {
-        margin: 10px 0;
-    }
-    ul {
-        margin: 10px 0 20px 20px;
-        padding-left: 0; /* Remove default left padding */
-        list-style-position: inside; /* Align bullet points */
-    }
-
-    ul li {
-        margin: 5px 0;
-    }
-    image-container {
-        text-align: center; /* Center the images */
-    }
-    .image-link {
-        display: inline-block;
-        margin-right: 10px;
-        margin-bottom: 10px;
-    }
-    .image{
-        align-items:center;
-    }
-    </style>
-    </head>
-<body>
-    <h1>About</h1>
-    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspElectricity plays a vital role in agriculture, serving as the backbone of modern farming practices. It powers irrigation systems, enabling farmers to supply water to their crops efficiently, and drives farm machinery, such as tractors and harvesters, to boost productivity and reduce labor costs. Electricity also fuels precision agriculture techniques, like precision irrigation and crop monitoring, to optimize crop yields and minimize waste. Additionally, it enables farmers to store and preserve crops effectively, using electric-powered storage facilities and refrigeration systems. Electricity also provides access to essential information and resources, like online market prices and weather forecasts, to inform farming decisions. By increasing efficiency, productivity, and profitability, electricity significantly contributes to global food security, sustainability, and economic development, making it an indispensable component of modern agriculture.</p>
-    <p>Electricity plays a crucial role in modern agriculture in several ways:
-<br>1.Irrigation: Electric pumps are used extensively for drawing water from wells, rivers, or reservoirs to irrigate fields. This ensures crops receive adequate water supply, especially in areas where natural water sources are limited or unreliable.
-<br>2.Mechanization: Electricity powers machinery and equipment essential for various agricultural tasks such as plowing, planting, harvesting, and processing. This mechanization increases efficiency and reduces the physical labor required, thereby boosting productivity.
-<br>3.Climate Control: Electricity is essential for controlling the climate in greenhouses and indoor farming facilities. It powers ventilation systems, heating, cooling, and humidity control mechanisms to create optimal growing conditions for crops throughout the year.
-<br>4.Storage and Processing: Electrical energy is used in the storage and processing of agricultural products. It powers refrigeration systems for preserving perishable goods, as well as machinery for sorting, grading, and packaging produce.
-<br>5.Livestock Farming: Electricity is crucial for livestock farming operations. It powers lighting, heating, ventilation, and water pumping systems in barns and poultry houses, ensuring animals have comfortable and healthy living conditions.
-<br>6.Data and Communication: Modern agriculture increasingly relies on technology for monitoring and managing farms. Electricity powers sensors, cameras, and communication systems that collect data on soil moisture, crop health, and weather conditions, enabling farmers to make informed decisions.
-<br>7.Research and Innovation: Electricity is fundamental to agricultural research and innovation. It powers laboratories, research facilities, and experimental farms where scientists study plant genetics, develop new agricultural techniques, and test agricultural machinery.</p>
-      </p>
-      <div class="images">
-        <img src="Picture12.jpg"alt="Picture8" width="500" height="500">
-      </div>
-      <h2>Life Without Electricity:</h2>
-      <p>If agriculture lost access to electricity, the ramifications would be profound and challenging. Electric pumps that provide water for irrigation would cease to function, forcing farmers to rely on manual methods or limited natural water sources. Mechanized equipment crucial for planting, harvesting, and processing crops would sit idle, increasing the labor intensity and decreasing the efficiency of agricultural operations. Climate control systems in greenhouses and livestock facilities would fail, exposing plants and animals to fluctuating environmental conditions that could reduce yields and compromise livestock health. Without electricity for storage and processing, perishable crops would spoil quickly, leading to significant losses and disruptions in food supply chains. Agricultural research and innovation, dependent on electricity for data collection, analysis, and experimentation, would stagnate, hindering advancements in crop genetics, sustainable practices, and technological innovations. Overall, the absence of electricity in agriculture would severely impair productivity, sustainability, and food security, highlighting its indispensable role in modern farming practices and the global food supply.
-        <br> If there is no electricty for agriculture then the situation will be like the above picture:
-      </p>
-        <div class= "images1">
-            <img src="Picture11.jpg"alt="Picture8" width="500" height="500">
-      </div>
-</body>
-</html>
+  .footerContainer{
+    width: 100%;
+    padding: 10px 10px 10px;
+  }
+  .socialIcons{
+    display: flex;
+    justify-content: center;
+  }
+  .socialIcons a{
+    text-decoration: none;
+    padding: 8px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 40%;
+  
+  }
+  
+  .socialIcons a i{
+    font-size: 1em;
+    color: white;
+    opacity: 0.9;
+  
+  }
+  
+  .socialIcons a:hover{
+    background-color: black;
+    transition: 0.5s;
+  }
+  .socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+  }
+  .footerNav{
+    margin: 30px 0;
+  }
+  .footerNav ul{
+    display:flex;
+    justify-content: center;
+  }
+  .footerNav ul li a{
+    color: white;
+    margin: 25px;
+    text-decoration: none;
+    font-size: 0.5cm;
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+  
+  .footerBottom{
+    background-color: #000;
+    padding: 0px;
+    text-align: center;
+  }
+  .footerBottom p{
+    color:white;
+  }
+  .designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 100;
+    margin: 0px 0px;
+  }
