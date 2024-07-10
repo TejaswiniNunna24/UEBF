@@ -7,6 +7,9 @@ nav {
   height: 70px;
   width: 100%;
 }
+ul {
+  list-style-type: none;
+}
 label.logo{
   color: rgb(14, 13, 13);
   font-size: 20px;
